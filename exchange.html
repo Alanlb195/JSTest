@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Conversión de Moneda</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <h2>Conversión de USD a MXN y viceversa</h2>
+        <h3>1 USD = 17 MXN</h3>
+
+        <form>
+            <div class="form-group">
+                <label for="CURRENCY1">Mexican Pesos</label>
+                <input type="text" class="form-control" id="CURRENCY1" placeholder="Enter MXN">
+            </div>
+
+            <div class="form-group">
+                <label for="CURRENCY2">United States Dollar</label>
+                <input type="text" class="form-control" id="CURRENCY2" placeholder="Enter USD">
+            </div>
+
+            <label id="warningMessage">Solo numeros</label>
+        </form>
+
+        <button class="btn btn-dark btn-block" onclick="clearForm()">Clear</button>
+    </div>
+
+
+
+    <script src="./JS/exchange.js"></script>
+</body>
+
+</html>

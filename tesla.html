@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Tesla Model S Slider</title>
+    <style>
+        .carousel-item img {
+            max-height: 80vh;
+            max-width: 100%;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            height: 40px;
+            width: 40px;
+            background-color: rgb(152, 151, 151);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="mt-4">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <img src="./tesla/modelS-azul.jpg" alt="azul">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./tesla/modelS-blanco.jpg" alt="blanco">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./tesla/modelS-cafe.jpg" alt="cafe">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./tesla/modelS-gris.jpg" alt="gris">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./tesla/modelS-negro.jpg" alt="negro">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./tesla/modelS-rojo.jpg" alt="rojo">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./tesla/modelS-rojooscuro.jpg" alt="rojooscuro">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./tesla/modelS-verde.jpg" alt="verde">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+    </div>
+
+    <div class="row d-flex justify-content-center">
+        <div class="form-group mt-4">
+            <select id="carSelect" class="form-control" name="">
+                <option value="azul">Tesla Model S - Azul</option>
+                <option value="blanco">Tesla Model S - Blanco</option>
+                <option value="cafe">Tesla Model S - Café</option>
+                <option value="gris">Tesla Model S - Gris</option>
+                <option value="negro">Tesla Model S - Negro</option>
+                <option value="rojo">Tesla Model S - Rojo</option>
+                <option value="rojooscuro">Tesla Model S - Rojo Oscuro</option>
+                <option value="verde">Tesla Model S - Verde</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="./JS/tesla.js"></script>
+</body>
+
+</html>

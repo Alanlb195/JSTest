@@ -1,0 +1,16 @@
+IDEmployee,Salary,address,birthday,email,firstName,fullName,lastName,phHome,phMobile
+31,120,xxx,28/10/2016 12:00:00 a.m.,rrosado@consultoriadual.com,Ale,,vc,,
+25,242.12,XXX,06/11/1984 12:00:00 a.m.,serviciotecnicogdl@digitalcopy.com.mx,ALFREDO,,ÁLVAREZ,,111
+9,364.24,Sin direccion,12/01/2014 12:00:00 a.m.,cchavez@consultoriadual.com,C. ANTONIO,,CÁRDENAS (SUPERVISOR ZONA NORTE),,
+6,486.36,Cancun,10/01/2014 12:00:00 a.m.,mail@mail.com,Consultoria,,Dual,,
+33,608.48,o,31/01/2017 12:00:00 a.m.,jorgedanielo@yahoo.com.mx,Daniel,,Ortiz,,
+34,730.6,xxx,15/02/2017 12:00:00 a.m.,actualizar@mail.com,Fredy,,Arellano Ramos,,
+12,852.72,x,19/11/2014 12:00:00 a.m.,mail@mail.com,Hector,,Gomez,,
+30,974.84,X,10/10/2016 12:00:00 a.m.,ejecutivo.soporte3@consultoriadual.com,HECTOR,,LOPEZ,,0
+23,1096.96,xxx,06/11/1984 12:00:00 a.m.,mail@mail.com,Javier Moises,,Novelo Cavazos,,111
+7,1219.08,CALLE COLON 207 NTE ZONA CENTRO TAMPICO TAM.,01/01/1967 12:00:00 a.m.,cchavez@consultoriadual.com,Joana,,Gómez,,80337031
+11,1341.2,.,11/01/2014 12:09:00 a.m.,mail@mail.com,Juan Luis,,Guerra,,
+29,1463.32,xxx,18/08/2016 12:00:00 a.m.,ejecutivo.soporte1@consultoriadual.com,juan,,s,,
+8,1585.44,MELCHOR OCAMPO N. 10 INT3,01/01/1967 12:00:00 a.m.,scan@consultoriadual.com,lety,,LEAL,,813007031
+5,1707.56,EN SU CALLE 43,05/01/2014 12:00:00 a.m.,ejecutivo.soporte2@consultoriadual.com,RICKY,,RICON,,
+35,1829.68,DESCONOCIDO,20/02/2017 12:00:00 a.m.,scan@consultoriadual.com,SAMUEL,,CAN,,

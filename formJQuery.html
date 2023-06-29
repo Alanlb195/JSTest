@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>FormJQuery</title>
+    <style>
+        .error {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <form id="myForm" class="bg-light p-5 mt-5" style="border-radius: 10px;">
+            <div class="row mb-5" style="display: flex; justify-content: center; gap: 10px;">
+                <!--Female-->
+                <img id="male" src="https://cdn.pixabay.com/photo/2012/04/23/17/06/male-39108_1280.png" alt="male"
+                    width="60px" height="auto" style="display: none;">
+                <!--Male-->
+                <img id="female" src="https://cdn.pixabay.com/photo/2012/04/01/19/25/gender-24170_1280.png" alt="female"
+                    width="50px" height="auto" style="display: none;">
+                <h1>Developer</h1>
+            </div>
+            <div class="row mb-2">
+                <div class="col">
+                    <label>Nombre
+                        <span style="color: red;">*</span>
+                    </label>
+                    <input id="first-name" class="form-control" type="text" name="">
+                </div>
+                <div class="col">
+                    <label>Apellido
+                        <span style="color:red;">*</span>
+                    </label>
+                    <input id="last-name" class="form-control" type="text" name="">
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col">
+                    <label>Dirección
+                        <span style="color: red;">*</span>
+                    </label>
+                    <input id="address" class="form-control" type="text" name="">
+                </div>
+                <div class="col">
+                    <label>Lugar de nacimiento
+                        <span style="color:red;">*</span>
+                    </label>
+                    <input id="birth-place" class="form-control" type="text" name="">
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col">
+                    <label>Años de experiencia
+                        <span style="color:red;">*</span>
+                    </label>
+                    <input id="yearsOfExperience" class="form-control" type="number" name="">
+                    <label id="experience" style="display: none;"></label>
+                </div>
+                <div class="col">
+                    <label>Lenguajes que domina</label>
+                    <span style=" color:red;">*</span>
+                    </label>
+                    <input id="lenguages" class="form-control" type="text" name="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label>Sexo</label>
+                        <select id="gender" class="form-control" name="">
+                            <option>Masculino</option>
+                            <option>Femenino</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button id="send" class="btn btn-block btn-warning">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./JS/formJQuery.js"></script>
+</body>
+
+</html>

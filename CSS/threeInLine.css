@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-container {
+    border: 5px solid cornflowerblue;
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.square {
+    width: calc(33.33% - 10px);
+    height: calc(33.33% - 10px);
+    font-size: 100px;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
